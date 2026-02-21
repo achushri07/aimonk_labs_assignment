@@ -29,7 +29,7 @@ The model is fine-tuned on top of pretrained ImageNet weights (not trained from 
 
 ---
 
-## 🏷 Handling Missing Labels (NA)
+## Handling Missing Labels (NA)
 
 The dataset contains partially labeled samples. Instead of discarding images with missing attributes, a **masking strategy** was used:
 
@@ -47,7 +47,7 @@ Only known attributes contribute to the loss. This allows the model to learn fro
 
 ---
 
-## ⚖ Handling Class Imbalance
+## Handling Class Imbalance
 
 The dataset is skewed across attributes. To address this:
 
