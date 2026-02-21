@@ -1,6 +1,6 @@
-# Aimonk Multilabel Classification Problem
+# AIMonk Multilabel Classification Problem
 
-## 📌 Problem Overview
+## Problem Overview
 
 This project solves a multilabel image classification task where each image may contain multiple attributes. The dataset consists of:
 
@@ -17,7 +17,7 @@ The objective is to train a deep learning model using pretrained weights, proper
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 * Backbone: **ResNet50 (ImageNet pretrained)**
 * `include_top=False`
@@ -65,7 +65,7 @@ This improves learning for rare attributes.
 
 ---
 
-## 📊 Training Configuration
+## Training Configuration
 
 * Image size: 224 × 224
 * Batch size: 16
@@ -87,7 +87,7 @@ Note: Since loss is plotted per mini-batch iteration, fluctuations are expected.
 
 ---
 
-## 🔮 Inference
+## Inference
 
 The notebook includes a prediction function:
 
@@ -104,7 +104,7 @@ Threshold tuning per attribute can further improve performance.
 
 ---
 
-## 🚀 Possible Improvements
+## Possible Improvements
 
 Due to time constraints, the following enhancements were not implemented but could further improve results:
 
@@ -119,7 +119,7 @@ Due to time constraints, the following enhancements were not implemented but cou
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 This implementation:
 
